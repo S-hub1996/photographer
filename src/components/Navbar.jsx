@@ -4,7 +4,6 @@ import {
   Flex,
   Link,
   IconButton,
-  Button,
   Drawer,
   DrawerBody,
   DrawerOverlay,
@@ -49,7 +48,7 @@ function MyNavbar() {
           aria-label="Open menu"
           icon={<HamburgerIcon />}
           onClick={onOpen}
-          bg="transparent"
+          bg="grey"
           _hover={{ bg: 'gray.700' }}
         />
 

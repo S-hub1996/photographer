@@ -1,4 +1,4 @@
-import { Box, Button, Container, FormControl, FormLabel, Input, Textarea, VStack } from '@chakra-ui/react';
+import { Box, Button, Container, FormControl, FormLabel, Input, Textarea, VStack} from '@chakra-ui/react';
 import { useState } from 'react';
 
 function Contact() {
@@ -12,6 +12,7 @@ function Contact() {
 
   return (
     <Container maxW="800px" height={'75vh'} mt={8}>
+
       <Box bg="gray.50" p={6} borderRadius="md" boxShadow="lg">
         <form onSubmit={handleSubmit}>
           <VStack spacing={4}>
